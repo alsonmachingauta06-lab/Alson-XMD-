@@ -4,12 +4,12 @@ This is a WhatsApp bot built by Alson Machingauta
 
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=Knight-Bot;Multi+Device+Whatsapp+Bot;Coded+By+Professor" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=Alson XMD ;Multi+Device+Whatsapp+Bot;Coded+By+Alson Machingauta " alt="Typing SVG" />
   </a> 
 </div> 
 
 <div align="center"> 
-  <a href="https://youtube.com/@mr_unique_hacker"> 
+  <a href="https://youtube.com/alsonmachingauta06-lab "> 
     <img src="https://github.com/alsonmachingauta06-lab/Alson-XMD-/blob/main/assets/bot_image.jpg" alt="Alson XMD " height="300"> 
   </a> 
 </div>
@@ -33,7 +33,7 @@ This is a WhatsApp bot built by Alson Machingauta
 <div align="left">
   <a href="https://www.rapidproxy.io/?ref=alsonmachingauta06-lab" target="_blank"><b>RapidProxy</b></a> delivers fast, reliable proxy infrastructure for large-scale data operations. With high concurrency, non-expiring traffic, and AI-powered CAPTCHA bypass, it ensures efficient, uninterrupted data collection—trusted by developers worldwide.<br><br>
   90M+ Residential IPs • Smart Rotation • High Success Rate • Built for Scale<br><br>
-  <b>Special Offer:</b> <a href="https://www.rapidproxy.io/?ref=alsonmachingauta06-lab" target="_blank">Try it free</a> — Pricing from $0.65/GB with non-expiring traffic. Use code <b>RAPID10</b> for 10% off.
+  <b>Special Offer:</b> <a href="https://www.rapidproxy.io/?ref=alsonmachingauta06-lab" target="_blank">Try it free</a> — Pricing from $0.50/GB with non-expiring traffic. Use code <b>RAPID10</b> for 10% off.
 </div>
 
 <br>
@@ -64,7 +64,7 @@ Click the button below to fork the Knight Bot repository to your GitHub account:
 Deploy the bot and easily connect it to your WhatsApp account by pair code. Click the button below to deploy the bot on Replit.
 
 <div align="center">
-  <a href="https://knight-bot-paircode.onrender.com" target="_blank">
+  <a href="https://Alson XMD paircode.onrender.com" target="_blank">
     <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Easy%20Method-ff4d4d?style=for-the-badge" alt="Generate Pair Code"/>
   </a>
 </div>
