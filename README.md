@@ -10,7 +10,7 @@ This is a WhatsApp bot built by Alson Machingauta
 
 <div align="center"> 
   <a href="https://youtube.com/AlsonMachingauta-x6f "> 
-    <img src="https://github.com/alsonmachingauta06-lab/Alson-XMD-/blob/main/assets/bot_image.jpg" alt="Alson XMD " height="300"> 
+    <img src=https://github.com/alsonmachingauta06-lab/Alson-XMD/raw/main/assets/"IMG-20260814-WA6266.jpg" alt="Alson XMD " height="300"> 
   </a> 
 </div>
 
