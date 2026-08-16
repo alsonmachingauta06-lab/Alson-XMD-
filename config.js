@@ -22,7 +22,11 @@ global.APIKeys = {
     'https://zenzapis.xyz': 'yourkey',
     'https://api-fgmods.ddns.net': 'fg-dylux'
 };
-
+global.botname = 'Alson-XMD'
+global.botOwner = 'Alson Machingauta' 
+global.owner = ['263786359833'] // put your number here with 263, no + or spaces
+global.version = '1.0.0'
+global.prefix = '.'
 module.exports = {
     WARN_COUNT: 3,
     APIs: global.APIs,
