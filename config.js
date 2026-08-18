@@ -31,6 +31,6 @@ module.exports = {
     WARN_COUNT: 3,
     APIs: global.APIs,
     APIKeys: global.APIKeys
-    global.channelLink = 'https://whatsapp.com/channel/0029VbE2d5CLI8YZUdfNJV09'
+    global.channelLink = 'https://whatsapp.com/channel/0029Vb8pa9p5kg7CkpkxrR37'
 global.channelName = 'Alson-XMD Updates'
 };
