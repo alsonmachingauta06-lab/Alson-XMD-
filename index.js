@@ -1,6 +1,6 @@
 /**
- * Knight Bot - A WhatsApp Bot
- * Copyright (c) 2024 Professor
+ * Alson-XMD - A WhatsApp Bot
+ * Copyright (c) 2024 Alson Machingauta 
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the MIT License.
@@ -73,7 +73,7 @@ setInterval(() => {
 let phoneNumber = "911234567890"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "KNIGHT BOT"
+global.botname = "Alson XMD"
 global.themeemoji = "•"
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
@@ -270,7 +270,7 @@ async function startXeonBotInc() {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363161513685998@newsletter',
-                            newsletterName: 'KnightBot MD',
+                            newsletterName: 'Alson XMD',
                             serverMessageId: -1
                         }
                     }
