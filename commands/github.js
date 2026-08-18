@@ -1,33 +1,23 @@
-const moment = require('moment-timezone');
-const fetch = require('node-fetch');
-const fs = require('fs');
-const path = require('path');
+let handler = async (m, { conn }) => {
+let text = `
+✗ *ALSON XMD* ✗
 
-
-async function githubCommand(sock, chatId, message) {
-  try {
-    const res = await fetch('https://api.github.com/repos/mruniquehacker/Knightbot-md');
-    if (!res.ok) throw new Error('Error fetching repository data');
-    const json = await res.json();
-
-    let txt = `*乂  Knight Bot MD  乂*\n\n`;
-    txt += `✩  *Name* : ${json.name}\n`;
-    txt += `✩  *Watchers* : ${json.watchers_count}\n`;
-    txt += `✩  *Size* : ${(json.size / 1024).toFixed(2)} MB\n`;
-    txt += `✩  *Last Updated* : ${moment(json.updated_at).format('DD/MM/YY - HH:mm:ss')}\n`;
-    txt += `✩  *URL* : ${json.html_url}\n`;
-    txt += `✩  *Forks* : ${json.forks_count}\n`;
-    txt += `✩  *Stars* : ${json.stargazers_count}\n\n`;
-    txt += `💥 *KnightBot MD*`;
-
-    // Use the local asset image
-    const imgPath = path.join(__dirname, '../assets/bot_image.jpg');
-    const imgBuffer = fs.readFileSync(imgPath);
-
-    await sock.sendMessage(chatId, { image: imgBuffer, caption: txt }, { quoted: message });
-  } catch (error) {
-    await sock.sendMessage(chatId, { text: '❌ Error fetching repository information.' }, { quoted: message });
-  }
+*☆ Name:* Alson-XMD
+*☆ Owner:* Alson Machingauta  
+*☆ Version:* 3.0.7
+*☆ Secure:* Anti-Ban + Anti-Delete
+*☆ Tools:* 200+ Commands
+*☆ Channel:* https://whatsapp.com/channel/0029Vb8pa9p5kg7CkpkxrR37
+*☆ Github:* https://github.com/alsonmachingauta06-lab/Alson-XMD-
+`
+conn.sendMessage(m.chat, {
+image: { url: 'https://ibb.co/Kz5V5x2F' }, 
+caption: text
+}, { quoted: m })
 }
 
-module.exports = githubCommand; 
+handler.help = ['repo']
+handler.tags = ['info']
+handler.command = ['repo', 'sc', 'script', 'github']
+
+export default handler
